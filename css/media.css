@@ -1,0 +1,184 @@
+@media (max-width: 991px) {
+    html {
+        font-size: 9px;
+    }
+
+    .header-button {
+        display: none;
+    }
+
+    .cart {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .basket {
+        margin-right: 25px;
+    }
+
+    .cart-button {
+        width: 80%;
+    }
+
+    .menu1 {
+        flex-wrap: nowrap;
+    }
+
+    .menu-link {
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .delivery-item {
+        margin-bottom: 50px;
+    }
+
+    .delivery-img {
+        width: 50%;
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .visible-lg {
+        display: none;
+    }
+
+    .m-menu-link {
+        display: block;
+    }
+
+    .cart {
+        display: none;
+    }
+
+    .main-text {
+        margin-top: 50px;
+    }
+
+    .main-title {
+        font-size: 76px;
+    }
+
+    .testimonials {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .buttons {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-button {
+        margin: 25px;
+        width: 45%;
+    }
+
+    .menu-content {
+        width: 100%;
+    }
+
+    .content {
+        height: auto;
+    }
+
+    .main {
+        height: auto;
+    }
+
+    .feature-background {
+        display: none;
+    }
+
+    .process-background {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .delivery-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main {
+        height: auto;
+    }
+
+    .main-text {
+        margin-top: 50px;
+    }
+
+    .main-title {
+        font-size: 48px;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+
+    .testimonials {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .main-button {
+        width: 80%;
+        margin: 0 0 25px;
+    }
+
+    .process-title {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    .feature-title {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    .process-text {
+        font-size: 15px;
+    }
+
+    .feature-text {
+        font-size: 15px;
+    }
+
+    .feature-button {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .process-button {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .button-div {
+        width: 100%;
+    }
+
+    .menu-title {
+        font-size: 38px;
+    }
+}
